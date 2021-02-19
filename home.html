@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link href="/static/android-chrome-192x192.png" rel="icon" sizes="192x192"/>
+    <link href="https://fonts.googleapis.com" rel="dns-prefetch"/>
+    <link href="/static/apple-touch-icon-150x150.png" rel="apple-touch-icon" />
+    <link href="/static/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180" />
+    <link href="https://www.gstatic.com" rel="dns-prefetch" />
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+<body>
+
+    <section class="centered">
+
+        <div class="konga-header">
+            <img src="./Img/PngItem_3871474.png" width="143px" height="40px" alt="">
+        </div>
+
+        <div class="opposite">
+
+            <div class="login-area">
+                <div class="heading">
+                    <h1>Login</h1>
+                </div>
+
+
+    <!-- ***********************Sign in with facebook or google****************************** -->
+                <div class="social-media">
+                    <a href="https://www.facebook.com/v3.3/dialog/oauth?client_id=609981359188266&redirect_uri=https://www.konga.com/account/login&response_type=code&scope=email,public_profile&state={"platform":"facebook","returnUrl":"/checkout/complete-order"}" class="facebook">Login with  <span class="adjust"><img src="./Img/facebook.jpg" height="15" width="68" alt=""></span></a>
+
+
+                    <a href="https://accounts.google.com/o/oauth2/v2/auth?response_type=code&redirect_uri=https://www.konga.com/account/login&scope=openid profile email&client_id=840453489448-es8on0but8hsibv1fmb13odjrae1rv87.apps.googleusercontent.com&ss_domain=https://www.konga.com&include_granted_scopes=true&origin=https://www.konga.com&gsiwebsdk=2&access_type=offline&state={"platform":"google","returnUrl":"/checkout/complete-order"}" class="google">Login with<span class="fix"><img src="./Img/google.png" height="15" width="46" alt=""></span></a>
+                </div>
+
+                <div class="line">
+                    <span class="or">OR</span>
+                </div>
+
+            </div>
+
+            <!-- ****************************Login details******************************** -->
+            
+            <form action="" class="form-space">
+                <label for="">Email Address or Phone Number</label>
+                <input type="text" name="User_name" placeholder="Enter Email Address OR Phone Number" id="user">
+
+                <div class="create"> 
+                    <div class="labelled-link">
+                        <label for="password">Password</label>
+                        <a href="">Forgot Password?</a>
+                    </div>
+                
+                <input type="password" name="" placeholder="Enter Password" id="password">
+
+                <a href="" class="input-link">Show</a>
+                </div>
+
+                <button>Login</button>
+            </form>
+
+           <div class="grey-area">
+               <span>Don't have an Account?</span>
+               <a href="">Create an Account</a>
+           </div>
+    
+    
+    
+    
+    
+    
+    
+    
+        </div>
+    </section>
+
+</body>
+</html>
